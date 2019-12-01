@@ -1,0 +1,205 @@
+@charset "utf-8";
+/* CSS Document */
+*{
+    list-style: none;
+    
+    margin: 0 auto;
+    padding: 0px;
+    font-family: "맑은 고딕";
+    
+}
+html,body{
+    min-width: 1000px;
+    
+}
+.wrap{
+	width: 1000px;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+    cursor: pointer;
+}
+header{
+    height: 150px;
+}
+#logo{
+    width: 300px;
+    height: 150px;
+    float: left;
+    text-align: center;
+}
+#logo>a>img{
+    margin-top: 15px;
+    width: 100%;
+}
+#nav{
+    float: right;
+    margin-top: 50px;
+}
+#nav>li{
+    color: #666666;
+    text-align: center;
+    width: 150px;
+    padding: 10px 0px;
+    transition: all 0.4s;
+    float: left;
+    
+}
+.submenu{
+    position: absolute;
+    z-index: 1;
+    margin-top: 10px;
+    display: none;
+    
+}
+.submenu>li{
+    background-color: rgba(255,255,255,0.8);
+    width: 150px;
+    padding: 10px 0px;
+    color: #666666;
+    transition: all 0.4s;
+}
+.submenu>li:hover{
+    color: #FFFFFF;
+    background-color: #3366FF;
+}
+#nav>li:hover{
+    
+    color: #FFFFFF;
+    background-color: #999999;
+}
+
+#slide{
+    height: 400px;
+    overflow: hidden;
+}
+#imgs{
+    position: relative;
+}
+#imgs>img{
+    position: absolute;
+    transition: all 1s;
+    
+}
+h1{
+    color: white;
+    font-size: 28px;
+    text-align: center;
+}
+#ds{
+    margin-left: 465px;
+    position: absolute;
+    
+}
+#d1,#d2,#d3,#d4,#d5{
+    float: left;
+    cursor: pointer;
+    padding: 10px 0px;
+    
+}
+#welcome{
+    position: absolute;
+    width: 200px;
+    padding: 30px;
+    border-radius: 15px;
+    margin-left: 370px;
+    margin-top: 150px;
+    background-color: rgba(0,0,0,0.5);
+}
+#content{
+    height: 500px;
+    
+}
+#notice,#partner{
+    text-align: center;
+    color: #666666;
+    width: 500px;
+    height: 220px;
+    float:left;
+}
+#partner>img{
+    width: 95%;
+    margin-top: 20px;
+    cursor: pointer;
+}
+table{
+    border-collapse: collapse;
+    width: 500px;
+    height: 190px;
+}
+table tr:nth-child(2n){
+    color: white;
+    background-color: #3366FF;
+}
+
+h2{
+    padding: 10px;
+    color: black;
+}
+#up{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: none;
+    
+    
+}
+#size{
+    width: 600px;
+    
+}
+.con{
+    margin-top: 30px;
+    text-align: center;
+    width: 200px;
+    height: 250px;
+    float: left;
+}
+.con>img{
+    width: 170px;
+}
+#up.on{
+    display: block;
+}
+#ub{
+    margin-top: 200px;
+    width: 600px;
+    height: 320px;
+    background-color: white;
+    text-align: center;
+    
+}
+#ub>img{
+    width: 90%;
+    padding: 30px;
+}
+.bt{
+    text-align: center;
+    background-color: #3366FF;
+    color: white;
+    width: 100px;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.bt:hover{
+    background-color: #999999;
+}
+footer{
+    height: 100px;
+    background-color: #3366FF;
+    color: white;
+}
+#last1,#last2{
+    width: 500px;
+    float: left;
+    
+}
+#last1>ul>li{
+    padding: 20px;
+    float: left;
+}
